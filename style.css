@@ -1,0 +1,21 @@
+body {
+    background-image:url("background.jpg");
+}
+
+canvas {
+    border-width: 0px;
+    border-style: solid;
+    animation-name: animation1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation1 {
+    from{box-shadow: 2px 2px 43px red;}
+    to{box-shadow: 2px 2px 43px cyan;}
+}
+
+#take_img:hover {
+    background-color: red;
+}
+
